@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "kafka-clickhouse-docker"
+version = "0.1.0"
+description = ""
+authors = ["moshe <mzsrtgzr2@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+confluent-kafka = "^2.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
